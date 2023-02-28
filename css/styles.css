@@ -409,6 +409,7 @@ color: var(--hero-text-color);
     display: flex; 
     width: 360px; 
     margin-right: 24px;
+    margin-bottom: 48px;
 }
 .works-portfolio:nth-child(3n){
     margin-right: 0px;
