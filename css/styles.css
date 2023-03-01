@@ -54,10 +54,10 @@ img{
 /* header */
 .header-page{
     
-    border-bottom: 1px solid var(--accent-color);
+    border-bottom: 1px solid var(--additional-text-color)
 }
 .main-nav{
-border-bottom: 2px solid var(--hover-text-color);
+
     display: flex;
     align-items: center;
 }
@@ -169,6 +169,7 @@ letter-spacing: 0.02em;
     
 }
 .hero-tittle{
+    margin-bottom: 48px;
   
     color: var(--hero-text-color);
  font-weight: 700;
@@ -209,7 +210,6 @@ letter-spacing: 0.04em;
 /* work tips */
 .sct{
    padding-top: 120px;
-   
 }
 .work-list{
     display: flex;
@@ -249,6 +249,10 @@ font-size: 16px;
 line-height: 1.5;
 }
 /* what are we doing */
+.doing-sct{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .doing-list{
     display: flex;
     justify-content: space-between;
@@ -262,8 +266,6 @@ line-height: 1.5;
 }
 .doing-tittle{
     
-    margin-top: 72px;
-    margin-bottom: 0;
 }
 /* team */
 .sct-team{
@@ -297,8 +299,8 @@ text-transform: capitalize;
    
 }
 .team-container{
-    margin-top: 32px;
-    margin-bottom: 32px;
+   padding-top: 32px;
+    padding-bottom: 32px;
 }
 .team-section{
     color: var(--primary-text-color);
@@ -322,7 +324,7 @@ text-align: center;
     padding-bottom: 100px;
     background-color: var(--primary-text-color);
 }
-.footer-sct{}
+
 .footer-peregraph{
  margin-top: 0;
  margin-bottom: 0;
@@ -413,6 +415,9 @@ color: var(--hero-text-color);
 }
 .works-portfolio:nth-child(3n){
     margin-right: 0px;
+}
+.works-portfolio:nth-last-child(-n+3){
+    margin-bottom: 0;
 }
 .works-container{
     padding-top: 32px;
